@@ -29,6 +29,8 @@ python3 dataset/data_split.py --accent zhaoan --type char
 ```
 ./run_lora.sh
 ```
+> 訓練拼音模型，設定 --language en; 訓練漢字模型，設定 --language zh
+
 > 中斷訓練後要接續訓練，可以將腳本中`--resume_from_checkpoint`註解拿掉，會從最新的checkpoint接續訓練。
 
 # 使用MUSAN進行語料混躁
